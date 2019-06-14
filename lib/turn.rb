@@ -50,7 +50,7 @@ end
 # end
 
 def turn(board)
-
+  index = null
   loop do
     puts "Please enter 1-9:"
     input = gets.strip
