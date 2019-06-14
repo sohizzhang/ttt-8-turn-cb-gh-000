@@ -50,7 +50,7 @@ end
 # end
 
 def turn(board)
-  input = null
+  input = -1
 
   while not valid_move?(board, index)
     puts "Please enter 1-9:"
